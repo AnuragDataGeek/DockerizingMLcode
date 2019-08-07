@@ -1,0 +1,5 @@
+sudo docker ps ---> show processes running on docker
+sudo docker images ---> lists all the docker images
+sudo docker rmi -f <imageid> ---> remove a docker image
+sudo docker build -t <imagename>  --> building a docker image
+sudo docker run -it <imageid> /bin/bash  --> running a docker image
